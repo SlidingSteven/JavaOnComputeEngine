@@ -4,7 +4,17 @@ The master branch is for the Django app and the Java Branch is for... the java p
 
 This is basically the Java code for random number generator- import java.io.IOException; import java.io.PrintWriter; import java.util.Random; and then within the servlet we need to place Random rand = new Random(); int num = rand.nextInt(1000000); num += 1;
 
-This video will get you started with Tomcat on ComputeEngine- https://youtu.be/CXHnfscyIsU once you have the generic page working you can modify their hello world example and just drop those lines in the code like this- import java.io.IOException; import java.io.PrintWriter; import java.util.ResourceBundle; import java.io.IOException; import java.io.PrintWriter; import java.util.Random; import javax.servlet.ServletException; import javax.servlet.http.HttpServlet; import javax.servlet.http.HttpServletRequest; import javax.servlet.http.HttpServletResponse; /**
+This video will get you started with Tomcat on ComputeEngine- https://youtu.be/CXHnfscyIsU once you have the generic page working you can modify their hello world example and just drop those lines in the code like this- 
+ import java.io.IOException; 
+ import java.io.PrintWriter; 
+ import java.util.ResourceBundle; 
+ import java.io.IOException; 
+ import java.io.PrintWriter; 
+ import java.util.Random; 
+ import javax.servlet.ServletException; 
+ import javax.servlet.http.HttpServlet; 
+ import javax.servlet.http.HttpServletRequest; 
+ import javax.servlet.http.HttpServletResponse; /**
 
 The simplest possible servlet.
 
